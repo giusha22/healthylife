@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="description" content="contact">
+
+    <title>contacts</title>
+</head>
+<body>
+    <header>
+        <h1>
+        <a class="logo" href="index.html">logo</a>
+    </h1>
+    <nav id="nav" class="nav"></nav>
+    </header>
+    <main>
+        <h2 class="contacth2">
+            It would make our day to hear from you.
+        </h2>
+  
+        <form class="reg">
+            <label for="regfirstname" class="must">*</label>
+            <input type="text" name="firstname" id="regfirstname" placeholder="სახელი*" required>
+            
+            <input type="text" name="lastname" id="reglastname" placeholder="გვარი">
+    
+            <label for="regemail" class="must">*</label>
+            <input type="email" name="email" id="regemail" placeholder="ელ.ფოსტა*" required>
+    
+            <label for="regpassword" class="must">*</label>
+            <input type="password" name="password" id="regpassword" placeholder="პაროლი*" required>
+    
+            <label for="regrepassword" class="must">*</label>
+            <input type="password" name="repassword" id="regrepassword" placeholder="გაიმეორეთ პაროლი*" required>
+    
+            <div class="gender">
+                <input type="radio" name="gender" id="man">
+                <label for="man">Man</label>
+    
+                <input type="radio" name="gender" id="woman">
+                <label for="woman">Woman</label>
+    
+                <input type="radio" name="gender" id="notsay">
+                <label for="notsay">Rather not to say</label>
+            </div>
+            <div class="terms">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">ვეთანხმები 
+                    <a href="pdf/წესები და პირობები.pdf" target="_blank">წესებსა და პირობებს</a>
+                </label>
+            </div>
+            <input type="submit" value="რეგისტრაცია">
+           </form>
+    
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

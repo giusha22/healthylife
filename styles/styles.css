@@ -178,11 +178,9 @@ h3{
     text-align: center;
     font-family: sans-serif;
 }
- .test input{
-    outline: none;
-}
+
 .reg{
-    width: 600px;
+    width: 500px;
     margin: 50px auto;
 }
 .reg input{
